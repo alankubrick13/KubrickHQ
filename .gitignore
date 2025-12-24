@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+node_modules
+venv/
+venv
+__pycache__/
+*.pyc
+
+# Distribution
+dist/
+build/
+backend/dist/
+backend/build/
+dist-electron/
+dist-electron
+
+# Keys and Logs
+.env
+npm-debug.log
+error.log
+
+# IDE
+.vscode/
+.idea/

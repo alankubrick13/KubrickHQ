@@ -1,0 +1,69 @@
+{
+  "name": "kubrickhq",
+  "private": true,
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "concurrently \"npm run dev\" \"electron .\"",
+    "dist": "npm run build && electron-builder"
+  },
+  "description": "A Comic Reader",
+  "author": "KubrickHQ",
+  "build": {
+    "appId": "com.kubrickhq.comicreader",
+    "productName": "KubrickHQ",
+    "npmRebuild": false,
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "package.json",
+      "frontend/icon.png"
+    ],
+    "icon": "frontend/icon.png",
+    "extraResources": [
+      {
+        "from": "backend/dist/comic-api.exe",
+        "to": "backend/comic-api.exe"
+      },
+      {
+        "from": "UnRAR.exe",
+        "to": "backend/UnRAR.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "KubrickHQ",
+      "perMachine": true
+    }
+  },
+  "devDependencies": {
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "copy-webpack-plugin": "^13.0.1",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.31",
+    "pyinstaller": "^0.0.1",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
+  }
+}

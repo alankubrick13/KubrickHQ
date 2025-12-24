@@ -1,0 +1,6 @@
+Flask==3.0.0
+Flask-Cors==4.0.0
+pypdfium2==4.30.0
+pypng==0.20220715.0
+rarfile==4.1
+watchdog==3.0.0
