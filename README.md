@@ -33,20 +33,28 @@ Melhore a qualidade de scans antigos ou ajuste para sua preferência:
 *   **Idioma**: Interface disponível em Português (Brasil) e Inglês.
 *   **Preferências**: Defina seu modo de leitura padrão e muito mais.
 
+## Galeria
+<img width="1366" height="768" alt="Captura de Tela (3)" src="https://github.com/user-attachments/assets/6b02a72e-3bea-48d0-8c45-aad2312b53fb" />
+<img width="1366" height="768" alt="Captura de Tela (1)" src="https://github.com/user-attachments/assets/14be7ef6-ad90-4ed4-83a6-480955576020" />
+<img width="1366" height="768" alt="Captura de Tela (5)" src="https://github.com/user-attachments/assets/10bc92fe-d874-4590-afda-e74b6b5f0a42" />
+<img width="1366" height="768" alt="Captura de Tela (4)" src="https://github.com/user-attachments/assets/8f30dd3e-802a-46cb-bb5f-c0209f7bda68" />
+
 ---
 
 ## Instalação
 
 ### Windows (Instalador)
-1.  Baixe a última versão do instalador (`KubrickHQ Setup.exe`).
+1.  Baixe a última versão do instalador (`KubrickHQ Setup.exe`). [Download](https://github.com/alankubrick13/KubrickHQ/blob/main/Download/KubrickHQ%20Setup%201.0.0.exe)
 2.  Execute o arquivo e siga as instruções do assistente.
 3.  O aplicativo criará atalhos na Área de Trabalho e no Menu Iniciar.
 
-### Windows (Portátil)
-1.  Baixe a versão portátil.
-2.  Extraia e execute `KubrickHQ.exe`.
+### Mac (apple silicon)
+em breve
 
-> **Nota:** Se tiver problemas com tela preta ao iniciar, verifique se seu antivírus (Windows Defender) não está bloqueando a comunicação do aplicativo localmente.
+### Linux
+Muito em breve
+
+> **Nota:** Se tiver problemas com tela preta ao iniciar via modo desenvolvedor, verifique se seu antivírus (Windows Defender) não está bloqueando a comunicação do aplicativo localmente.
 
 ---
 
